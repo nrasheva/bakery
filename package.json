@@ -1,8 +1,8 @@
 {
-  "name": "bakery-shell",
-  "description": "Webcomponent bakery-shell following open-wc recommendations",
+  "name": "bakery",
+  "description": "web application following open-wc recommendations",
   "license": "MIT",
-  "author": "bakery-shell",
+  "author": "Nadezhda Rasheva",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
     "start": "web-dev-server"
   },
   "dependencies": {
+    "@vaadin/router": "^1.7.5",
     "lit": "^2.0.2"
   },
   "devDependencies": {
