@@ -14,4 +14,14 @@ router.setRoutes([
     component: 'products-page',
     path: '/products',
   },
+  {
+    action: () => import('../pages/about-page.js'),
+    component: 'about-page',
+    path: '/about',
+  },
+  {
+    action: () => import('../pages/contact-page.js'),
+    component: 'contact-page',
+    path: '/contact',
+  },
 ]);
