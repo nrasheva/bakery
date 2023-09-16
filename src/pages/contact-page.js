@@ -1,12 +1,13 @@
 import { LitElement, html } from 'lit';
+import { appHero } from '../components/app-hero.js';
 
-class ContactPage extends LitElement {
+export class ContactPage extends LitElement {
   render() {
-    return html`
-      <div>
-        <h1>ContactPage</h1>
-      </div>
-    `;
+    return html`<div>${appHero('', 'ContactPage')}</div>`;
+  }
+
+  createRenderRoot() {
+    return this;
   }
 }
 
