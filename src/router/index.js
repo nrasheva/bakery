@@ -1,5 +1,6 @@
 import { Router } from '@vaadin/router';
 import '../components/app-navigation.js';
+import '../components/app-footer.js';
 
 const router = new Router(document.querySelector('main'));
 
